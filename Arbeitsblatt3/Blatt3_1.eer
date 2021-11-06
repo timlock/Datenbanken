@@ -130,7 +130,7 @@
             </participatingEntities>
         </relationship>
     </model>
-    <view scaleSize="75" fontSize="18" notation="0">
+    <view scaleSize="55" fontSize="13" notation="0">
         <node idref="00001">
             <pointAnchor x="18.64" y="1.72" />
         </node>

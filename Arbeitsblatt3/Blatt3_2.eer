@@ -190,14 +190,6 @@
             </participatingEntities>
         </relationship>
         <relationship id="00030" identifying="false">
-            <name>istIn</name>
-            <attributes />
-            <participatingEntities>
-                <entityRef idref="00019" cardinality="1" total="true" />
-                <entityRef idref="00018" cardinality="1" total="false" />
-            </participatingEntities>
-        </relationship>
-        <relationship id="00031" identifying="false">
             <name>betreut</name>
             <attributes />
             <participatingEntities>
@@ -205,7 +197,7 @@
                 <entityRef idref="00009" cardinality="n" total="false" />
             </participatingEntities>
         </relationship>
-        <relationship id="00032" identifying="false">
+        <relationship id="00031" identifying="false">
             <name>betreut</name>
             <attributes />
             <participatingEntities>
@@ -213,16 +205,16 @@
                 <entityRef idref="00021" cardinality="1" total="true" />
             </participatingEntities>
         </relationship>
-        <relationship id="00033" identifying="false">
+        <relationship id="00032" identifying="false">
             <name>hatEin</name>
             <attributes />
             <participatingEntities>
                 <entityRef idref="00022" cardinality="1" total="true" />
-                <entityRef idref="00023" cardinality="1" total="false" />
                 <entityRef idref="00021" cardinality="1" total="true" />
+                <entityRef idref="00023" cardinality="1" total="false" />
             </participatingEntities>
         </relationship>
-        <generalization id="00034" type="overlapping" total="false" transform="auto">
+        <generalization id="00033" type="overlapping" total="false" transform="auto">
             <superEntity>
                 <entityRef idref="00011" />
             </superEntity>
@@ -231,7 +223,7 @@
                 <entityRef idref="00013" />
             </subEntities>
         </generalization>
-        <generalization id="00035" type="overlapping" total="false" transform="auto">
+        <generalization id="00034" type="overlapping" total="false" transform="auto">
             <superEntity>
                 <entityRef idref="00014" />
             </superEntity>
@@ -240,7 +232,7 @@
                 <entityRef idref="00015" />
             </subEntities>
         </generalization>
-        <generalization id="00036" type="overlapping" total="false" transform="auto">
+        <generalization id="00035" type="overlapping" total="false" transform="auto">
             <superEntity>
                 <entityRef idref="00020" />
             </superEntity>
@@ -249,7 +241,7 @@
                 <entityRef idref="00022" />
             </subEntities>
         </generalization>
-        <generalization id="00037" type="overlapping" total="false" transform="auto">
+        <generalization id="00036" type="overlapping" total="false" transform="auto">
             <superEntity>
                 <entityRef idref="00018" />
             </superEntity>
@@ -264,12 +256,12 @@
             <text />
         </businessRule>
     </model>
-    <view scaleSize="40" fontSize="9" notation="0">
+    <view scaleSize="50" fontSize="12" notation="0">
         <node idref="00001">
             <pointAnchor x="16.3" y="7.85" />
         </node>
         <node idref="00002">
-            <pointAnchor x="17.35" y="16.375" />
+            <pointAnchor x="18.39" y="14.975" />
         </node>
         <node idref="00003">
             <pointAnchor x="8.6" y="7.925" />
@@ -314,13 +306,13 @@
             <pointAnchor x="4.55" y="16.1" />
         </node>
         <node idref="00017">
-            <pointAnchor x="14.825" y="16.275" />
+            <pointAnchor x="15.865" y="14.874999999999998" />
         </node>
         <node idref="00018">
-            <pointAnchor x="14.925" y="19.95" />
+            <pointAnchor x="15.965" y="18.55" />
         </node>
         <node idref="00019">
-            <pointAnchor x="20.1" y="19.875" />
+            <pointAnchor x="21.14" y="18.475" />
         </node>
         <node idref="00020">
             <pointAnchor x="11.15" y="10.275" />
@@ -334,13 +326,13 @@
         <node idref="00023">
             <pointAnchor x="11.75" y="18.75" />
         </node>
-        <node idref="00034">
+        <node idref="00033">
             <pointAnchor x="18.925" y="9.375" />
         </node>
-        <node idref="00035">
+        <node idref="00034">
             <pointAnchor x="6.375" y="14.3" />
         </node>
-        <node idref="00036">
+        <node idref="00035">
             <pointAnchor x="11.825" y="11.975" />
         </node>
         <node idref="00024">
@@ -359,18 +351,15 @@
             <pointAnchor x="12.5" y="2.175" />
         </node>
         <node idref="00029">
-            <pointAnchor x="14.95" y="17.95" />
+            <pointAnchor x="15.99" y="16.55" />
         </node>
         <node idref="00030">
-            <pointAnchor x="17.4" y="19.875" />
-        </node>
-        <node idref="00031">
             <pointAnchor x="14.05" y="9.175" />
         </node>
-        <node idref="00032">
+        <node idref="00031">
             <pointAnchor x="12.5" y="12.45" />
         </node>
-        <node idref="00033">
+        <node idref="00032">
             <pointAnchor x="12.825" y="15.525" />
         </node>
         <attributeEdge>
@@ -383,10 +372,10 @@
         </attributeEdge>
         <attributeEdge>
             <from>
-                <nodeAnchor idref="00002" side="west" position="0.5" />
+                <nodeAnchor idref="00002" side="west" position="0.504527429481262" />
             </from>
             <to>
-                <nodeAnchor idref="00017" side="east" position="0.5" />
+                <nodeAnchor idref="00017" side="east" position="0.5198275087218118" />
             </to>
         </attributeEdge>
         <attributeEdge>
@@ -561,10 +550,10 @@
         </relationshipEdge>
         <relationshipEdge total="false">
             <from>
-                <nodeAnchor idref="00017" side="south" position="0.4927126756847467" />
+                <nodeAnchor idref="00017" side="south" position="0.4954174780745243" />
             </from>
             <to>
-                <nodeAnchor idref="00029" side="north" position="0.5081092916904456" />
+                <nodeAnchor idref="00029" side="north" position="0.5201039841100745" />
             </to>
             <over />
             <label>
@@ -574,10 +563,10 @@
         </relationshipEdge>
         <relationshipEdge total="true">
             <from>
-                <nodeAnchor idref="00029" side="south" position="0.5339445921882214" />
+                <nodeAnchor idref="00029" side="south" position="0.5485426007662603" />
             </from>
             <to>
-                <nodeAnchor idref="00018" side="north" position="0.4725643508496995" />
+                <nodeAnchor idref="00018" side="north" position="0.4658640542162832" />
             </to>
             <over />
             <label>
@@ -585,35 +574,9 @@
                 <pointAnchor x="0.0" y="0.0" />
             </label>
         </relationshipEdge>
-        <relationshipEdge total="true">
-            <from>
-                <nodeAnchor idref="00019" side="west" position="0.5488777694442746" />
-            </from>
-            <to>
-                <nodeAnchor idref="00030" side="east" position="0.4769953847530427" />
-            </to>
-            <over />
-            <label>
-                <text>1</text>
-                <pointAnchor x="0.0" y="0.0" />
-            </label>
-        </relationshipEdge>
         <relationshipEdge total="false">
             <from>
-                <nodeAnchor idref="00018" side="east" position="0.5368574036073106" />
-            </from>
-            <to>
-                <nodeAnchor idref="00030" side="west" position="0.483359950776534" />
-            </to>
-            <over />
-            <label>
-                <text>1</text>
-                <pointAnchor x="0.0" y="0.0" />
-            </label>
-        </relationshipEdge>
-        <relationshipEdge total="false">
-            <from>
-                <nodeAnchor idref="00031" side="south" position="0.46906320169623206" />
+                <nodeAnchor idref="00030" side="south" position="0.46906320169623206" />
             </from>
             <to>
                 <nodeAnchor idref="00021" side="north" position="0.5130618103896784" />
@@ -626,7 +589,7 @@
         </relationshipEdge>
         <relationshipEdge total="false">
             <from>
-                <nodeAnchor idref="00031" side="north" position="0.6322456819412453" />
+                <nodeAnchor idref="00030" side="north" position="0.6322456819412453" />
             </from>
             <to>
                 <nodeAnchor idref="00009" side="south" position="0.4030478122264915" />
@@ -642,7 +605,7 @@
                 <nodeAnchor idref="00022" side="north" position="0.745994002006604" />
             </from>
             <to>
-                <nodeAnchor idref="00032" side="west" position="0.7085711942731543" />
+                <nodeAnchor idref="00031" side="west" position="0.7085711942731543" />
             </to>
             <over />
             <label>
@@ -652,7 +615,7 @@
         </relationshipEdge>
         <relationshipEdge total="true">
             <from>
-                <nodeAnchor idref="00032" side="north" position="0.7251682244868957" />
+                <nodeAnchor idref="00031" side="north" position="0.7251682244868957" />
             </from>
             <to>
                 <nodeAnchor idref="00021" side="south" position="0.25002355925161734" />
@@ -668,7 +631,7 @@
                 <nodeAnchor idref="00022" side="south" position="0.6662427526294609" />
             </from>
             <to>
-                <nodeAnchor idref="00033" side="west" position="0.25253328249539986" />
+                <nodeAnchor idref="00032" side="west" position="0.25253328249539986" />
             </to>
             <over />
             <label>
@@ -681,7 +644,7 @@
                 <nodeAnchor idref="00021" side="south" position="0.4416875136009761" />
             </from>
             <to>
-                <nodeAnchor idref="00033" side="north" position="0.5856183940671003" />
+                <nodeAnchor idref="00032" side="north" position="0.5856183940671003" />
             </to>
             <over />
             <label>
@@ -691,7 +654,7 @@
         </relationshipEdge>
         <relationshipEdge total="false">
             <from>
-                <nodeAnchor idref="00033" side="south" position="0.38037107511819934" />
+                <nodeAnchor idref="00032" side="south" position="0.38037107511819934" />
             </from>
             <to>
                 <nodeAnchor idref="00023" side="north" position="0.6514499044300607" />
@@ -704,7 +667,7 @@
         </relationshipEdge>
         <generalizationEdge total="false">
             <from>
-                <nodeAnchor idref="00034" side="north" position="0.5634304756645937" />
+                <nodeAnchor idref="00033" side="north" position="0.5634304756645937" />
             </from>
             <to>
                 <nodeAnchor idref="00011" side="south" position="0.49208717968944116" />
@@ -712,7 +675,7 @@
         </generalizationEdge>
         <generalizationEdge total="false">
             <from>
-                <nodeAnchor idref="00035" side="north" position="0.46719458956028703" />
+                <nodeAnchor idref="00034" side="north" position="0.46719458956028703" />
             </from>
             <to>
                 <nodeAnchor idref="00014" side="south" position="0.5373709962182349" />
@@ -720,7 +683,7 @@
         </generalizationEdge>
         <generalizationEdge total="false">
             <from>
-                <nodeAnchor idref="00036" side="north" position="0.4963803063167261" />
+                <nodeAnchor idref="00035" side="north" position="0.4963803063167261" />
             </from>
             <to>
                 <nodeAnchor idref="00020" side="south" position="0.5016442213513477" />
@@ -728,7 +691,7 @@
         </generalizationEdge>
         <specializationEdge>
             <from>
-                <nodeAnchor idref="00034" side="south" position="0.25683240124220946" />
+                <nodeAnchor idref="00033" side="south" position="0.25683240124220946" />
             </from>
             <to>
                 <nodeAnchor idref="00012" side="north" position="0.6634360543700909" />
@@ -736,7 +699,7 @@
         </specializationEdge>
         <specializationEdge>
             <from>
-                <nodeAnchor idref="00034" side="south" position="0.7286606422087732" />
+                <nodeAnchor idref="00033" side="south" position="0.7286606422087732" />
             </from>
             <to>
                 <nodeAnchor idref="00013" side="north" position="0.35795878828145483" />
@@ -744,7 +707,7 @@
         </specializationEdge>
         <specializationEdge>
             <from>
-                <nodeAnchor idref="00035" side="south" position="0.2595994292054256" />
+                <nodeAnchor idref="00034" side="south" position="0.2595994292054256" />
             </from>
             <to>
                 <nodeAnchor idref="00016" side="north" position="0.6653957995133233" />
@@ -752,7 +715,7 @@
         </specializationEdge>
         <specializationEdge>
             <from>
-                <nodeAnchor idref="00035" side="south" position="0.8248689885640407" />
+                <nodeAnchor idref="00034" side="south" position="0.8248689885640407" />
             </from>
             <to>
                 <nodeAnchor idref="00015" side="north" position="0.3012021641086869" />
@@ -760,7 +723,7 @@
         </specializationEdge>
         <specializationEdge>
             <from>
-                <nodeAnchor idref="00036" side="east" position="0.45056923951062255" />
+                <nodeAnchor idref="00035" side="east" position="0.45056923951062255" />
             </from>
             <to>
                 <nodeAnchor idref="00021" side="west" position="0.6937867176052528" />
@@ -768,7 +731,7 @@
         </specializationEdge>
         <specializationEdge>
             <from>
-                <nodeAnchor idref="00036" side="south" position="0.3084259344326727" />
+                <nodeAnchor idref="00035" side="south" position="0.3084259344326727" />
             </from>
             <to>
                 <nodeAnchor idref="00022" side="north" position="0.5716007871291418" />
@@ -776,12 +739,12 @@
         </specializationEdge>
         <specializationEdge>
             <from>
-                <nodeAnchor idref="00018" side="west" position="0.16625718870188422" />
+                <nodeAnchor idref="00018" side="west" position="0.5440219483982673" />
             </from>
             <to>
-                <nodeAnchor idref="00023" side="east" position="0.7352588709188481" />
+                <nodeAnchor idref="00023" side="east" position="0.4702102273543481" />
             </to>
-            <generalizationRef idref="00037" />
+            <generalizationRef idref="00036" />
         </specializationEdge>
     </view>
 </eer>
