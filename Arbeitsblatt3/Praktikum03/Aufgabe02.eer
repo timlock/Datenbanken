@@ -1,0 +1,1326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eer xmlns="http://www.informatik.uni-oldenburg.de/2006/EER-Designer/EER">
+    <head>
+        <name>Aufgabe02</name>
+    </head>
+    <model>
+        <attribute id="00001" key="false" derived="false" multivalued="false">
+            <name>Name</name>
+            <domain>
+                <datatype name="char">
+                    <parameter name="length" type="integer" value="1" />
+                    <parameter name="national" type="boolean" value="false" />
+                </datatype>
+            </domain>
+        </attribute>
+        <attribute id="00002" key="primary" derived="false" multivalued="false">
+            <name>Teilenummer</name>
+            <domain>
+                <datatype name="char">
+                    <parameter name="length" type="integer" value="1" />
+                    <parameter name="national" type="boolean" value="false" />
+                </datatype>
+            </domain>
+        </attribute>
+        <attribute id="00003" key="primary" derived="false" multivalued="false">
+            <name>Adresse</name>
+            <domain>
+                <datatype name="char">
+                    <parameter name="length" type="integer" value="1" />
+                    <parameter name="national" type="boolean" value="false" />
+                </datatype>
+            </domain>
+        </attribute>
+        <attribute id="00004" key="false" derived="false" multivalued="false">
+            <name>Name</name>
+            <domain>
+                <datatype name="char">
+                    <parameter name="length" type="integer" value="1" />
+                    <parameter name="national" type="boolean" value="false" />
+                </datatype>
+            </domain>
+        </attribute>
+        <attribute id="00005" key="false" derived="false" multivalued="false">
+            <name>Adresse</name>
+            <domain>
+                <datatype name="char">
+                    <parameter name="length" type="integer" value="1" />
+                    <parameter name="national" type="boolean" value="false" />
+                </datatype>
+            </domain>
+        </attribute>
+        <attribute id="00006" key="primary" derived="false" multivalued="false">
+            <name>Mitarbeiternummer</name>
+            <domain>
+                <datatype name="char">
+                    <parameter name="length" type="integer" value="1" />
+                    <parameter name="national" type="boolean" value="false" />
+                </datatype>
+            </domain>
+        </attribute>
+        <attribute id="00007" key="false" derived="false" multivalued="false">
+            <name>Gehalt</name>
+            <domain>
+                <datatype name="char">
+                    <parameter name="length" type="integer" value="1" />
+                    <parameter name="national" type="boolean" value="false" />
+                </datatype>
+            </domain>
+        </attribute>
+        <attribute id="00008" key="primary" derived="false" multivalued="false">
+            <name>Nummernschild</name>
+            <domain>
+                <datatype name="char">
+                    <parameter name="length" type="integer" value="1" />
+                    <parameter name="national" type="boolean" value="false" />
+                </datatype>
+            </domain>
+        </attribute>
+        <attribute id="00009" key="false" derived="false" multivalued="false">
+            <name>Fahrzeugtyp</name>
+            <domain>
+                <datatype name="char">
+                    <parameter name="length" type="integer" value="1" />
+                    <parameter name="national" type="boolean" value="false" />
+                </datatype>
+            </domain>
+        </attribute>
+        <attribute id="00010" key="false" derived="false" multivalued="false">
+            <name>Name</name>
+            <domain>
+                <datatype name="char">
+                    <parameter name="length" type="integer" value="1" />
+                    <parameter name="national" type="boolean" value="false" />
+                </datatype>
+            </domain>
+        </attribute>
+        <attribute id="00011" key="primary" derived="false" multivalued="false">
+            <name>Gesellschaftsnummer</name>
+            <domain>
+                <datatype name="char">
+                    <parameter name="length" type="integer" value="1" />
+                    <parameter name="national" type="boolean" value="false" />
+                </datatype>
+            </domain>
+        </attribute>
+        <attribute id="00012" key="false" derived="false" multivalued="false">
+            <name>Name</name>
+            <domain>
+                <datatype name="char">
+                    <parameter name="length" type="integer" value="1" />
+                    <parameter name="national" type="boolean" value="false" />
+                </datatype>
+            </domain>
+        </attribute>
+        <attribute id="00013" key="primary" derived="false" multivalued="false">
+            <name>Eigentümernummer</name>
+            <domain>
+                <datatype name="char">
+                    <parameter name="length" type="integer" value="1" />
+                    <parameter name="national" type="boolean" value="false" />
+                </datatype>
+            </domain>
+        </attribute>
+        <attribute id="00014" key="false" derived="false" multivalued="false">
+            <name>Adresse</name>
+            <domain>
+                <datatype name="char">
+                    <parameter name="length" type="integer" value="1" />
+                    <parameter name="national" type="boolean" value="false" />
+                </datatype>
+            </domain>
+        </attribute>
+        <attribute id="00015" key="primary" derived="false" multivalued="false">
+            <name>WohnungsID</name>
+            <domain>
+                <datatype name="char">
+                    <parameter name="length" type="integer" value="1" />
+                    <parameter name="national" type="boolean" value="false" />
+                </datatype>
+            </domain>
+        </attribute>
+        <attribute id="00016" key="false" derived="false" multivalued="false">
+            <name>Typ</name>
+            <domain>
+                <datatype name="char">
+                    <parameter name="length" type="integer" value="1" />
+                    <parameter name="national" type="boolean" value="false" />
+                </datatype>
+            </domain>
+        </attribute>
+        <attribute id="00017" key="primary" derived="false" multivalued="false">
+            <name>Seriennummer</name>
+            <domain>
+                <datatype name="char">
+                    <parameter name="length" type="integer" value="1" />
+                    <parameter name="national" type="boolean" value="false" />
+                </datatype>
+            </domain>
+        </attribute>
+        <attribute id="00018" key="primary" derived="false" multivalued="false">
+            <name>Raumnummer</name>
+            <domain>
+                <datatype name="char">
+                    <parameter name="length" type="integer" value="1" />
+                    <parameter name="national" type="boolean" value="false" />
+                </datatype>
+            </domain>
+        </attribute>
+        <attribute id="00019" key="primary" derived="false" multivalued="false">
+            <name>Gebäudenummer</name>
+            <domain>
+                <datatype name="char">
+                    <parameter name="length" type="integer" value="1" />
+                    <parameter name="national" type="boolean" value="false" />
+                </datatype>
+            </domain>
+        </attribute>
+        <attribute id="00020" key="false" derived="false" multivalued="false">
+            <name>Kapazität</name>
+            <domain>
+                <datatype name="char">
+                    <parameter name="length" type="integer" value="1" />
+                    <parameter name="national" type="boolean" value="false" />
+                </datatype>
+            </domain>
+        </attribute>
+        <attribute id="00021" key="false" derived="false" multivalued="false">
+            <name>Raumanzahl</name>
+            <domain>
+                <datatype name="char">
+                    <parameter name="length" type="integer" value="1" />
+                    <parameter name="national" type="boolean" value="false" />
+                </datatype>
+            </domain>
+        </attribute>
+        <attribute id="00022" key="false" derived="false" multivalued="false">
+            <name>Spezialgebiet</name>
+            <domain>
+                <datatype name="char">
+                    <parameter name="length" type="integer" value="1" />
+                    <parameter name="national" type="boolean" value="false" />
+                </datatype>
+            </domain>
+        </attribute>
+        <attribute id="00023" key="false" derived="false" multivalued="false">
+            <name>Zusatzaufgabe</name>
+            <domain>
+                <datatype name="char">
+                    <parameter name="length" type="integer" value="1" />
+                    <parameter name="national" type="boolean" value="false" />
+                </datatype>
+            </domain>
+        </attribute>
+        <attribute id="00024" key="primary" derived="false" multivalued="false">
+            <name>ID</name>
+            <domain>
+                <datatype name="char">
+                    <parameter name="length" type="integer" value="1" />
+                    <parameter name="national" type="boolean" value="false" />
+                </datatype>
+            </domain>
+        </attribute>
+        <attribute id="00025" key="false" derived="false" multivalued="false">
+            <name>Name</name>
+            <domain>
+                <datatype name="char">
+                    <parameter name="length" type="integer" value="1" />
+                    <parameter name="national" type="boolean" value="false" />
+                </datatype>
+            </domain>
+        </attribute>
+        <entity id="00026" weak="false">
+            <name>Heizungsanlage</name>
+            <attributes>
+                <attributeRef idref="00016" />
+                <attributeRef idref="00017" />
+            </attributes>
+        </entity>
+        <entity id="00027" weak="false">
+            <name>Wohnung</name>
+            <attributes>
+                <attributeRef idref="00014" />
+                <attributeRef idref="00015" />
+            </attributes>
+        </entity>
+        <entity id="00028" weak="false">
+            <name>Eigentümer</name>
+            <attributes>
+                <attributeRef idref="00012" />
+                <attributeRef idref="00013" />
+            </attributes>
+        </entity>
+        <entity id="00029" weak="false">
+            <name>Hausverwaltungsgesellschaft</name>
+            <attributes>
+                <attributeRef idref="00010" />
+                <attributeRef idref="00011" />
+            </attributes>
+        </entity>
+        <entity id="00030" weak="false">
+            <name>Heizungsanlagenteil</name>
+            <attributes>
+                <attributeRef idref="00001" />
+                <attributeRef idref="00002" />
+            </attributes>
+        </entity>
+        <entity id="00031" weak="false">
+            <name>Lager</name>
+            <attributes>
+                <attributeRef idref="00020" />
+            </attributes>
+        </entity>
+        <entity id="00032" weak="false">
+            <name>Service-PKW</name>
+            <attributes>
+                <attributeRef idref="00008" />
+                <attributeRef idref="00009" />
+            </attributes>
+        </entity>
+        <entity id="00033" weak="false">
+            <name>Standort</name>
+            <attributes>
+                <attributeRef idref="00003" />
+            </attributes>
+        </entity>
+        <entity id="00034" weak="false">
+            <name>Gebäude</name>
+            <attributes>
+                <attributeRef idref="00019" />
+            </attributes>
+        </entity>
+        <entity id="00035" weak="false">
+            <name>Angestellter</name>
+            <attributes>
+                <attributeRef idref="00004" />
+                <attributeRef idref="00005" />
+                <attributeRef idref="00006" />
+                <attributeRef idref="00007" />
+            </attributes>
+        </entity>
+        <entity id="00036" weak="false">
+            <name>Installateur</name>
+            <attributes>
+                <attributeRef idref="00022" />
+            </attributes>
+        </entity>
+        <entity id="00037" weak="false">
+            <name>Verwaltungsangestellte/r</name>
+            <attributes>
+                <attributeRef idref="00023" />
+            </attributes>
+        </entity>
+        <entity id="00038" weak="false">
+            <name>Bürogebäude</name>
+            <attributes>
+                <attributeRef idref="00021" />
+            </attributes>
+        </entity>
+        <entity id="00039" weak="false">
+            <name>Büro</name>
+            <attributes>
+                <attributeRef idref="00018" />
+            </attributes>
+        </entity>
+        <entity id="00040" weak="false">
+            <name>Produktklasse</name>
+            <attributes>
+                <attributeRef idref="00024" />
+                <attributeRef idref="00025" />
+            </attributes>
+        </entity>
+        <relationship id="00041" identifying="false">
+            <name>betreut</name>
+            <attributes />
+            <participatingEntities>
+                <entityRef idref="00029" cardinality="1" total="false" />
+                <entityRef idref="00027" cardinality="n" total="false" />
+            </participatingEntities>
+        </relationship>
+        <relationship id="00042" identifying="false">
+            <name>beauftragt</name>
+            <attributes />
+            <participatingEntities>
+                <entityRef idref="00029" cardinality="1" total="true" />
+                <entityRef idref="00028" cardinality="n" total="false" />
+            </participatingEntities>
+        </relationship>
+        <relationship id="00043" identifying="false">
+            <name>in</name>
+            <attributes />
+            <participatingEntities>
+                <entityRef idref="00026" cardinality="1" total="true" />
+                <entityRef idref="00027" cardinality="n" total="false" />
+            </participatingEntities>
+        </relationship>
+        <relationship id="00044" identifying="false">
+            <name>besteht_aus</name>
+            <attributes />
+            <participatingEntities>
+                <entityRef idref="00026" cardinality="n" total="true" />
+                <entityRef idref="00030" cardinality="m" total="false" />
+            </participatingEntities>
+        </relationship>
+        <relationship id="00045" identifying="false">
+            <name>hat</name>
+            <attributes />
+            <participatingEntities>
+                <entityRef idref="00033" cardinality="1" total="false" />
+                <entityRef idref="00032" cardinality="n" total="true" />
+            </participatingEntities>
+        </relationship>
+        <relationship id="00046" identifying="false">
+            <name>lagert</name>
+            <attributes />
+            <participatingEntities>
+                <entityRef idref="00031" cardinality="1" total="false" />
+                <entityRef idref="00030" cardinality="1" total="false" />
+            </participatingEntities>
+        </relationship>
+        <relationship id="00047" identifying="false">
+            <name>hat_geladen</name>
+            <attributes />
+            <participatingEntities>
+                <entityRef idref="00032" cardinality="1" total="false" />
+                <entityRef idref="00030" cardinality="1" total="false" />
+            </participatingEntities>
+        </relationship>
+        <relationship id="00048" identifying="false">
+            <name>hat</name>
+            <attributes />
+            <participatingEntities>
+                <entityRef idref="00029" cardinality="1" total="false" />
+                <entityRef idref="00033" cardinality="n" total="true" />
+            </participatingEntities>
+        </relationship>
+        <relationship id="00049" identifying="false">
+            <name>hat</name>
+            <attributes />
+            <participatingEntities>
+                <entityRef idref="00034" cardinality="n" total="false" />
+                <entityRef idref="00033" cardinality="1" total="true" />
+            </participatingEntities>
+        </relationship>
+        <relationship id="00050" identifying="false">
+            <name>beschäftigt</name>
+            <attributes />
+            <participatingEntities>
+                <entityRef idref="00029" cardinality="1" total="true" />
+                <entityRef idref="00035" cardinality="n" total="false" />
+            </participatingEntities>
+        </relationship>
+        <relationship id="00051" identifying="false">
+            <name>betreut</name>
+            <attributes />
+            <participatingEntities>
+                <entityRef idref="00036" cardinality="m" total="false" />
+                <entityRef idref="00026" cardinality="n" total="false" />
+            </participatingEntities>
+        </relationship>
+        <relationship id="00052" identifying="false">
+            <name>betreut</name>
+            <attributes />
+            <participatingEntities>
+                <entityRef idref="00037" cardinality="1" total="true" />
+                <entityRef idref="00036" cardinality="1" total="true" />
+            </participatingEntities>
+        </relationship>
+        <relationship id="00053" identifying="false">
+            <name>hat</name>
+            <attributes />
+            <participatingEntities>
+                <entityRef idref="00038" cardinality="1" total="false" />
+                <entityRef idref="00039" cardinality="n" total="true" />
+            </participatingEntities>
+        </relationship>
+        <relationship id="00054" identifying="false">
+            <name>hat</name>
+            <attributes />
+            <participatingEntities>
+                <entityRef idref="00035" cardinality="n" total="false" />
+                <entityRef idref="00039" cardinality="1" total="false" />
+            </participatingEntities>
+        </relationship>
+        <relationship id="00055" identifying="false">
+            <name>hat</name>
+            <attributes />
+            <participatingEntities>
+                <entityRef idref="00028" cardinality="m" total="false" />
+                <entityRef idref="00027" cardinality="n" total="true" />
+            </participatingEntities>
+        </relationship>
+        <relationship id="00056" identifying="false">
+            <name>ist_zugeordnet</name>
+            <attributes />
+            <participatingEntities>
+                <entityRef idref="00030" cardinality="n" total="true" />
+                <entityRef idref="00040" cardinality="1" total="false" />
+            </participatingEntities>
+        </relationship>
+        <generalization id="00057" type="disjoint" total="false" transform="auto">
+            <superEntity>
+                <entityRef idref="00035" />
+            </superEntity>
+            <subEntities>
+                <entityRef idref="00036" />
+                <entityRef idref="00037" />
+            </subEntities>
+        </generalization>
+        <generalization id="00058" type="overlapping" total="false" transform="auto">
+            <superEntity>
+                <entityRef idref="00034" />
+            </superEntity>
+            <subEntities>
+                <entityRef idref="00031" />
+                <entityRef idref="00038" />
+            </subEntities>
+        </generalization>
+        <businessRule type="constraint">
+            <text>Jeder Standort hat genau ein Gebäude, dass ein Lager ist.</text>
+        </businessRule>
+        <businessRule type="constraint">
+            <text>Die Gehälter der Angestellten dürfen maximal 1000€ voneinander abweichen.</text>
+        </businessRule>
+    </model>
+    <view scaleSize="90" fontSize="21" notation="0">
+        <node idref="00001">
+            <pointAnchor x="-0.9711111111111111" y="6.359999999999999" />
+        </node>
+        <node idref="00002">
+            <pointAnchor x="0.04" y="4.16" />
+        </node>
+        <node idref="00003">
+            <pointAnchor x="19.884444444444448" y="2.1155555555555554" />
+        </node>
+        <node idref="00004">
+            <pointAnchor x="9.764444444444443" y="9.257777777777779" />
+        </node>
+        <node idref="00005">
+            <pointAnchor x="13.38" y="9.497777777777777" />
+        </node>
+        <node idref="00006">
+            <pointAnchor x="9.139999999999999" y="7.262222222222225" />
+        </node>
+        <node idref="00007">
+            <pointAnchor x="13.986666666666666" y="7.235555555555555" />
+        </node>
+        <node idref="00008">
+            <pointAnchor x="6.300000000000002" y="-1.5777777777777777" />
+        </node>
+        <node idref="00009">
+            <pointAnchor x="9.2" y="-2.1444444444444444" />
+        </node>
+        <node idref="00010">
+            <pointAnchor x="22.91111111111111" y="6.2" />
+        </node>
+        <node idref="00011">
+            <pointAnchor x="23.522222222222222" y="7.4222222222222225" />
+        </node>
+        <node idref="00012">
+            <pointAnchor x="22.633333333333333" y="11.577777777777778" />
+        </node>
+        <node idref="00013">
+            <pointAnchor x="22.377777777777776" y="13.044444444444444" />
+        </node>
+        <node idref="00014">
+            <pointAnchor x="7.9222222222222225" y="14.344444444444445" />
+        </node>
+        <node idref="00015">
+            <pointAnchor x="10.488888888888889" y="15.38888888888889" />
+        </node>
+        <node idref="00016">
+            <pointAnchor x="2.4444444444444446" y="10.044444444444444" />
+        </node>
+        <node idref="00017">
+            <pointAnchor x="2.533333333333333" y="11.822222222222223" />
+        </node>
+        <node idref="00018">
+            <pointAnchor x="9.2" y="5.622222222222224" />
+        </node>
+        <node idref="00019">
+            <pointAnchor x="8.255555555555556" y="1.311111111111111" />
+        </node>
+        <node idref="00020">
+            <pointAnchor x="7.566666666666666" y="2.7555555555555555" />
+        </node>
+        <node idref="00021">
+            <pointAnchor x="14.544444444444444" y="3.188888888888889" />
+        </node>
+        <node idref="00022">
+            <pointAnchor x="9.833333333333334" y="11.988888888888889" />
+        </node>
+        <node idref="00023">
+            <pointAnchor x="15.72222222222222" y="9.988888888888887" />
+        </node>
+        <node idref="00024">
+            <pointAnchor x="0.3333333333333333" y="11.677777777777777" />
+        </node>
+        <node idref="00025">
+            <pointAnchor x="-2.1444444444444444" y="11.344444444444445" />
+        </node>
+        <node idref="00026">
+            <pointAnchor x="4.875555555555555" y="9.882222222222223" />
+        </node>
+        <node idref="00027">
+            <pointAnchor x="10.348888888888888" y="13.96" />
+        </node>
+        <node idref="00028">
+            <pointAnchor x="20.235555555555557" y="12.582222222222223" />
+        </node>
+        <node idref="00029">
+            <pointAnchor x="17.964444444444446" y="7.5088888888888885" />
+        </node>
+        <node idref="00030">
+            <pointAnchor x="0.72" y="6.395555555555556" />
+        </node>
+        <node idref="00031">
+            <pointAnchor x="9.506666666666668" y="3.064444444444445" />
+        </node>
+        <node idref="00032">
+            <pointAnchor x="8.986666666666672" y="-0.8022222222222223" />
+        </node>
+        <node idref="00033">
+            <pointAnchor x="17.602222222222224" y="1.6688888888888889" />
+        </node>
+        <node idref="00034">
+            <pointAnchor x="10.893333333333334" y="0.9711111111111108" />
+        </node>
+        <node idref="00035">
+            <pointAnchor x="11.757777777777779" y="8.771111111111113" />
+        </node>
+        <node idref="00036">
+            <pointAnchor x="10.633333333333333" y="10.764444444444443" />
+        </node>
+        <node idref="00037">
+            <pointAnchor x="12.917777777777777" y="10.784444444444443" />
+        </node>
+        <node idref="00038">
+            <pointAnchor x="11.922222222222222" y="3.1155555555555545" />
+        </node>
+        <node idref="00039">
+            <pointAnchor x="12.175555555555558" y="5.991111111111111" />
+        </node>
+        <node idref="00040">
+            <pointAnchor x="-1.2333333333333334" y="9.911111111111111" />
+        </node>
+        <node idref="00057">
+            <pointAnchor x="12.364444444444441" y="9.69111111111111" />
+        </node>
+        <node idref="00058">
+            <pointAnchor x="11.404444444444445" y="2.186666666666666" />
+        </node>
+        <node idref="00041">
+            <pointAnchor x="16.98222222222222" y="11.42" />
+        </node>
+        <node idref="00042">
+            <pointAnchor x="19.982222222222223" y="10.264444444444443" />
+        </node>
+        <node idref="00043">
+            <pointAnchor x="7.719999999999999" y="11.92" />
+        </node>
+        <node idref="00044">
+            <pointAnchor x="2.917777777777777" y="7.835555555555555" />
+        </node>
+        <node idref="00045">
+            <pointAnchor x="12.326666666666668" y="-0.5777777777777777" />
+        </node>
+        <node idref="00046">
+            <pointAnchor x="6.04" y="4.6000000000000005" />
+        </node>
+        <node idref="00047">
+            <pointAnchor x="5.5777777777777775" y="1.6666666666666667" />
+        </node>
+        <node idref="00048">
+            <pointAnchor x="19.45555555555556" y="5.128888888888889" />
+        </node>
+        <node idref="00049">
+            <pointAnchor x="14.58" y="1.3511111111111114" />
+        </node>
+        <node idref="00050">
+            <pointAnchor x="15.053333333333333" y="7.673333333333334" />
+        </node>
+        <node idref="00051">
+            <pointAnchor x="8.355555555555556" y="10.11111111111111" />
+        </node>
+        <node idref="00052">
+            <pointAnchor x="12.371111111111109" y="11.944444444444445" />
+        </node>
+        <node idref="00053">
+            <pointAnchor x="12.282222222222224" y="4.297777777777776" />
+        </node>
+        <node idref="00054">
+            <pointAnchor x="12.153333333333332" y="7.191111111111112" />
+        </node>
+        <node idref="00055">
+            <pointAnchor x="18.015555555555558" y="14.006666666666666" />
+        </node>
+        <node idref="00056">
+            <pointAnchor x="-0.45555555555555555" y="7.911111111111111" />
+        </node>
+        <attributeEdge>
+            <from>
+                <nodeAnchor idref="00001" side="east" position="0.5662056448099875" />
+            </from>
+            <to>
+                <nodeAnchor idref="00030" side="west" position="0.41597619350005666" />
+            </to>
+        </attributeEdge>
+        <attributeEdge>
+            <from>
+                <nodeAnchor idref="00002" side="south" position="0.573653854901048" />
+            </from>
+            <to>
+                <nodeAnchor idref="00030" side="north" position="0.4327831053443318" />
+            </to>
+        </attributeEdge>
+        <attributeEdge>
+            <from>
+                <nodeAnchor idref="00003" side="west" position="0.338469240250086" />
+            </from>
+            <to>
+                <nodeAnchor idref="00033" side="east" position="0.6307228641551834" />
+            </to>
+        </attributeEdge>
+        <attributeEdge>
+            <from>
+                <nodeAnchor idref="00004" side="east" position="0.3458582038381078" />
+            </from>
+            <to>
+                <nodeAnchor idref="00035" side="west" position="0.6848556494179744" />
+            </to>
+        </attributeEdge>
+        <attributeEdge>
+            <from>
+                <nodeAnchor idref="00005" side="west" position="0.16194563821929814" />
+            </from>
+            <to>
+                <nodeAnchor idref="00035" side="east" position="0.9663434038072835" />
+            </to>
+        </attributeEdge>
+        <attributeEdge>
+            <from>
+                <nodeAnchor idref="00006" side="south" position="0.6561839834327583" />
+            </from>
+            <to>
+                <nodeAnchor idref="00035" side="north" position="0.18158874076163317" />
+            </to>
+        </attributeEdge>
+        <attributeEdge>
+            <from>
+                <nodeAnchor idref="00007" side="south" position="0.26427279757267336" />
+            </from>
+            <to>
+                <nodeAnchor idref="00035" side="north" position="0.7670999637523881" />
+            </to>
+        </attributeEdge>
+        <attributeEdge>
+            <from>
+                <nodeAnchor idref="00008" side="south" position="0.8281770060023577" />
+            </from>
+            <to>
+                <nodeAnchor idref="00032" side="west" position="0.09667973043702659" />
+            </to>
+        </attributeEdge>
+        <attributeEdge>
+            <from>
+                <nodeAnchor idref="00009" side="south" position="0.4902114676189313" />
+            </from>
+            <to>
+                <nodeAnchor idref="00032" side="north" position="0.5189541885593848" />
+            </to>
+        </attributeEdge>
+        <attributeEdge>
+            <from>
+                <nodeAnchor idref="00010" side="west" position="0.8141699645467091" />
+            </from>
+            <to>
+                <nodeAnchor idref="00029" side="north" position="0.806211277257108" />
+            </to>
+        </attributeEdge>
+        <attributeEdge>
+            <from>
+                <nodeAnchor idref="00011" side="west" position="0.5527592340530784" />
+            </from>
+            <to>
+                <nodeAnchor idref="00029" side="east" position="0.4107286400819006" />
+            </to>
+        </attributeEdge>
+        <attributeEdge>
+            <from>
+                <nodeAnchor idref="00012" side="south" position="0.1500549467564943" />
+            </from>
+            <to>
+                <nodeAnchor idref="00028" side="north" position="0.9463809887550895" />
+            </to>
+        </attributeEdge>
+        <attributeEdge>
+            <from>
+                <nodeAnchor idref="00013" side="west" position="0.25053117426945654" />
+            </from>
+            <to>
+                <nodeAnchor idref="00028" side="east" position="0.6531788223074788" />
+            </to>
+        </attributeEdge>
+        <attributeEdge>
+            <from>
+                <nodeAnchor idref="00014" side="east" position="0.38043177090867986" />
+            </from>
+            <to>
+                <nodeAnchor idref="00027" side="west" position="0.6072371580643964" />
+            </to>
+        </attributeEdge>
+        <attributeEdge>
+            <from>
+                <nodeAnchor idref="00015" side="north" position="0.4971515612745548" />
+            </from>
+            <to>
+                <nodeAnchor idref="00027" side="south" position="0.5032044829544855" />
+            </to>
+        </attributeEdge>
+        <attributeEdge>
+            <from>
+                <nodeAnchor idref="00016" side="east" position="0.47567148322889147" />
+            </from>
+            <to>
+                <nodeAnchor idref="00026" side="west" position="0.5265910452343057" />
+            </to>
+        </attributeEdge>
+        <attributeEdge>
+            <from>
+                <nodeAnchor idref="00017" side="north" position="0.6759194510642964" />
+            </from>
+            <to>
+                <nodeAnchor idref="00026" side="south" position="0.2608255703228309" />
+            </to>
+        </attributeEdge>
+        <attributeEdge>
+            <from>
+                <nodeAnchor idref="00018" side="east" position="0.7601334816830378" />
+            </from>
+            <to>
+                <nodeAnchor idref="00039" side="west" position="0.38160443041554876" />
+            </to>
+        </attributeEdge>
+        <attributeEdge>
+            <from>
+                <nodeAnchor idref="00019" side="east" position="0.32593452728597266" />
+            </from>
+            <to>
+                <nodeAnchor idref="00034" side="west" position="0.6069371530164729" />
+            </to>
+        </attributeEdge>
+        <attributeEdge>
+            <from>
+                <nodeAnchor idref="00020" side="east" position="0.7419554007721619" />
+            </from>
+            <to>
+                <nodeAnchor idref="00031" side="west" position="0.33542170671669436" />
+            </to>
+        </attributeEdge>
+        <attributeEdge>
+            <from>
+                <nodeAnchor idref="00021" side="west" position="0.5191770685558146" />
+            </from>
+            <to>
+                <nodeAnchor idref="00038" side="east" position="0.49139342278600073" />
+            </to>
+        </attributeEdge>
+        <attributeEdge>
+            <from>
+                <nodeAnchor idref="00022" side="north" position="0.5885185436036307" />
+            </from>
+            <to>
+                <nodeAnchor idref="00036" side="south" position="0.35662654268664556" />
+            </to>
+        </attributeEdge>
+        <attributeEdge>
+            <from>
+                <nodeAnchor idref="00023" side="south" position="0.20919781208472563" />
+            </from>
+            <to>
+                <nodeAnchor idref="00037" side="north" position="0.8341398395159704" />
+            </to>
+        </attributeEdge>
+        <attributeEdge>
+            <from>
+                <nodeAnchor idref="00024" side="north" position="0.34350852539120497" />
+            </from>
+            <to>
+                <nodeAnchor idref="00040" side="south" position="0.6429649257237936" />
+            </to>
+        </attributeEdge>
+        <attributeEdge>
+            <from>
+                <nodeAnchor idref="00025" side="north" position="0.703540315323789" />
+            </from>
+            <to>
+                <nodeAnchor idref="00040" side="south" position="0.3102065886257919" />
+            </to>
+        </attributeEdge>
+        <relationshipEdge total="false">
+            <from>
+                <nodeAnchor idref="00029" side="south" position="0.4428101019996603" />
+            </from>
+            <to>
+                <nodeAnchor idref="00041" side="north" position="0.6298835180502689" />
+            </to>
+            <over />
+            <label>
+                <text>1</text>
+                <pointAnchor x="0.0" y="0.0" />
+            </label>
+        </relationshipEdge>
+        <relationshipEdge total="false">
+            <from>
+                <nodeAnchor idref="00041" side="west" position="0.6592501800329758" />
+            </from>
+            <to>
+                <nodeAnchor idref="00027" side="east" position="0.15205941751962201" />
+            </to>
+            <over />
+            <label>
+                <text>n</text>
+                <pointAnchor x="0.0" y="0.0" />
+            </label>
+        </relationshipEdge>
+        <relationshipEdge total="true">
+            <from>
+                <nodeAnchor idref="00029" side="south" position="0.5456419237422667" />
+            </from>
+            <to>
+                <nodeAnchor idref="00042" side="north" position="0.40434463327399583" />
+            </to>
+            <over />
+            <label>
+                <text>1</text>
+                <pointAnchor x="0.0" y="0.0" />
+            </label>
+        </relationshipEdge>
+        <relationshipEdge total="false">
+            <from>
+                <nodeAnchor idref="00042" side="south" position="0.5247260937887241" />
+            </from>
+            <to>
+                <nodeAnchor idref="00028" side="north" position="0.4801025550942143" />
+            </to>
+            <over />
+            <label>
+                <text>n</text>
+                <pointAnchor x="0.0" y="0.0" />
+            </label>
+        </relationshipEdge>
+        <relationshipEdge total="true">
+            <from>
+                <nodeAnchor idref="00026" side="south" position="0.6900175279860936" />
+            </from>
+            <to>
+                <nodeAnchor idref="00043" side="west" position="0.27955410826696536" />
+            </to>
+            <over />
+            <label>
+                <text>1</text>
+                <pointAnchor x="0.0" y="0.0" />
+            </label>
+        </relationshipEdge>
+        <relationshipEdge total="false">
+            <from>
+                <nodeAnchor idref="00043" side="east" position="0.6845636650586859" />
+            </from>
+            <to>
+                <nodeAnchor idref="00027" side="north" position="0.09545282300695254" />
+            </to>
+            <over />
+            <label>
+                <text>n</text>
+                <pointAnchor x="0.0" y="0.0" />
+            </label>
+        </relationshipEdge>
+        <relationshipEdge total="true">
+            <from>
+                <nodeAnchor idref="00026" side="north" position="0.3091946715764015" />
+            </from>
+            <to>
+                <nodeAnchor idref="00044" side="south" position="0.6841579715906349" />
+            </to>
+            <over />
+            <label>
+                <text>n</text>
+                <pointAnchor x="0.0" y="0.0" />
+            </label>
+        </relationshipEdge>
+        <relationshipEdge total="false">
+            <from>
+                <nodeAnchor idref="00030" side="south" position="0.6821323960181572" />
+            </from>
+            <to>
+                <nodeAnchor idref="00044" side="north" position="0.30466897423711004" />
+            </to>
+            <over />
+            <label>
+                <text>m</text>
+                <pointAnchor x="0.0" y="0.0" />
+            </label>
+        </relationshipEdge>
+        <relationshipEdge total="false">
+            <from>
+                <nodeAnchor idref="00033" side="west" position="0.16420819879946824" />
+            </from>
+            <to>
+                <nodeAnchor idref="00045" side="east" position="0.6367981015042653" />
+            </to>
+            <over />
+            <label>
+                <text>1</text>
+                <pointAnchor x="0.0" y="0.0" />
+            </label>
+        </relationshipEdge>
+        <relationshipEdge total="true">
+            <from>
+                <nodeAnchor idref="00045" side="west" position="0.4459587658379061" />
+            </from>
+            <to>
+                <nodeAnchor idref="00032" side="east" position="0.6672408222794267" />
+            </to>
+            <over />
+            <label>
+                <text>n</text>
+                <pointAnchor x="0.0" y="0.0" />
+            </label>
+        </relationshipEdge>
+        <relationshipEdge total="false">
+            <from>
+                <nodeAnchor idref="00031" side="west" position="0.8608725577265856" />
+            </from>
+            <to>
+                <nodeAnchor idref="00046" side="east" position="0.3112363552892469" />
+            </to>
+            <over />
+            <label>
+                <text>1</text>
+                <pointAnchor x="0.0" y="0.0" />
+            </label>
+        </relationshipEdge>
+        <relationshipEdge total="false">
+            <from>
+                <nodeAnchor idref="00046" side="west" position="0.6493992287259289" />
+            </from>
+            <to>
+                <nodeAnchor idref="00030" side="north" position="0.9368487144315375" />
+            </to>
+            <over />
+            <label>
+                <text>1</text>
+                <pointAnchor x="0.0" y="0.0" />
+            </label>
+        </relationshipEdge>
+        <relationshipEdge total="false">
+            <from>
+                <nodeAnchor idref="00032" side="south" position="0.25615390970995244" />
+            </from>
+            <to>
+                <nodeAnchor idref="00047" side="north" position="0.7047024710689483" />
+            </to>
+            <over />
+            <label>
+                <text>1</text>
+                <pointAnchor x="0.0" y="0.0" />
+            </label>
+        </relationshipEdge>
+        <relationshipEdge total="false">
+            <from>
+                <nodeAnchor idref="00047" side="south" position="0.3203414240156914" />
+            </from>
+            <to>
+                <nodeAnchor idref="00030" side="north" position="0.6581428372428672" />
+            </to>
+            <over />
+            <label>
+                <text>1</text>
+                <pointAnchor x="0.0" y="0.0" />
+            </label>
+        </relationshipEdge>
+        <relationshipEdge total="false">
+            <from>
+                <nodeAnchor idref="00029" side="north" position="0.5125278412798413" />
+            </from>
+            <to>
+                <nodeAnchor idref="00048" side="south" position="0.4494722880159532" />
+            </to>
+            <over />
+            <label>
+                <text>1</text>
+                <pointAnchor x="0.0" y="0.0" />
+            </label>
+        </relationshipEdge>
+        <relationshipEdge total="true">
+            <from>
+                <nodeAnchor idref="00048" side="north" position="0.3434966750618028" />
+            </from>
+            <to>
+                <nodeAnchor idref="00033" side="south" position="0.6236871551915056" />
+            </to>
+            <over />
+            <label>
+                <text>n</text>
+                <pointAnchor x="0.0" y="0.0" />
+            </label>
+        </relationshipEdge>
+        <relationshipEdge total="false">
+            <from>
+                <nodeAnchor idref="00049" side="west" position="0.4402447270770843" />
+            </from>
+            <to>
+                <nodeAnchor idref="00034" side="east" position="0.6431921206251582" />
+            </to>
+            <over />
+            <label>
+                <text>n</text>
+                <pointAnchor x="0.0" y="0.0" />
+            </label>
+        </relationshipEdge>
+        <relationshipEdge total="true">
+            <from>
+                <nodeAnchor idref="00049" side="east" position="0.5288842779827974" />
+            </from>
+            <to>
+                <nodeAnchor idref="00033" side="west" position="0.4427216026621636" />
+            </to>
+            <over />
+            <label>
+                <text>1</text>
+                <pointAnchor x="0.0" y="0.0" />
+            </label>
+        </relationshipEdge>
+        <relationshipEdge total="true">
+            <from>
+                <nodeAnchor idref="00050" side="east" position="0.42728523250466927" />
+            </from>
+            <to>
+                <nodeAnchor idref="00029" side="west" position="0.7122140812993545" />
+            </to>
+            <over />
+            <label>
+                <text>1</text>
+                <pointAnchor x="0.0" y="0.0" />
+            </label>
+        </relationshipEdge>
+        <relationshipEdge total="false">
+            <from>
+                <nodeAnchor idref="00050" side="west" position="0.6502232202080904" />
+            </from>
+            <to>
+                <nodeAnchor idref="00035" side="east" position="0.20726536808082832" />
+            </to>
+            <over />
+            <label>
+                <text>n</text>
+                <pointAnchor x="0.0" y="0.0" />
+            </label>
+        </relationshipEdge>
+        <relationshipEdge total="false">
+            <from>
+                <nodeAnchor idref="00051" side="east" position="0.6099529164466572" />
+            </from>
+            <to>
+                <nodeAnchor idref="00036" side="west" position="0.28352640296278425" />
+            </to>
+            <over />
+            <label>
+                <text>m</text>
+                <pointAnchor x="0.0" y="0.0" />
+            </label>
+        </relationshipEdge>
+        <relationshipEdge total="false">
+            <from>
+                <nodeAnchor idref="00051" side="west" position="0.43163494770283817" />
+            </from>
+            <to>
+                <nodeAnchor idref="00026" side="east" position="0.6525059396059927" />
+            </to>
+            <over />
+            <label>
+                <text>n</text>
+                <pointAnchor x="0.0" y="0.0" />
+            </label>
+        </relationshipEdge>
+        <relationshipEdge total="true">
+            <from>
+                <nodeAnchor idref="00037" side="south" position="0.36409579038740797" />
+            </from>
+            <to>
+                <nodeAnchor idref="00052" side="north" position="0.7096833279250483" />
+            </to>
+            <over />
+            <label>
+                <text>1</text>
+                <pointAnchor x="0.0" y="0.0" />
+            </label>
+        </relationshipEdge>
+        <relationshipEdge total="true">
+            <from>
+                <nodeAnchor idref="00052" side="north" position="0.26751227162344876" />
+            </from>
+            <to>
+                <nodeAnchor idref="00036" side="south" position="0.7876115315005129" />
+            </to>
+            <over />
+            <label>
+                <text>1</text>
+                <pointAnchor x="0.0" y="0.0" />
+            </label>
+        </relationshipEdge>
+        <relationshipEdge total="false">
+            <from>
+                <nodeAnchor idref="00038" side="south" position="0.4902264234077122" />
+            </from>
+            <to>
+                <nodeAnchor idref="00053" side="north" position="0.5155929166024171" />
+            </to>
+            <over />
+            <label>
+                <text>1</text>
+                <pointAnchor x="0.0" y="0.0" />
+            </label>
+        </relationshipEdge>
+        <relationshipEdge total="true">
+            <from>
+                <nodeAnchor idref="00053" side="south" position="0.46714635110870134" />
+            </from>
+            <to>
+                <nodeAnchor idref="00039" side="north" position="0.5401932384521374" />
+            </to>
+            <over />
+            <label>
+                <text>n</text>
+                <pointAnchor x="0.0" y="0.0" />
+            </label>
+        </relationshipEdge>
+        <relationshipEdge total="false">
+            <from>
+                <nodeAnchor idref="00035" side="north" position="0.504789787870414" />
+            </from>
+            <to>
+                <nodeAnchor idref="00054" side="south" position="0.4907463229384727" />
+            </to>
+            <over />
+            <label>
+                <text>n</text>
+                <pointAnchor x="0.0" y="0.0" />
+            </label>
+        </relationshipEdge>
+        <relationshipEdge total="false">
+            <from>
+                <nodeAnchor idref="00054" side="north" position="0.5107622784510827" />
+            </from>
+            <to>
+                <nodeAnchor idref="00039" side="south" position="0.4965153624805799" />
+            </to>
+            <over />
+            <label>
+                <text>1</text>
+                <pointAnchor x="0.0" y="0.0" />
+            </label>
+        </relationshipEdge>
+        <relationshipEdge total="false">
+            <from>
+                <nodeAnchor idref="00055" side="east" position="0.31506266090870516" />
+            </from>
+            <to>
+                <nodeAnchor idref="00028" side="south" position="0.12360602087687056" />
+            </to>
+            <over />
+            <label>
+                <text>m</text>
+                <pointAnchor x="0.0" y="0.0" />
+            </label>
+        </relationshipEdge>
+        <relationshipEdge total="true">
+            <from>
+                <nodeAnchor idref="00055" side="west" position="0.48495066676862664" />
+            </from>
+            <to>
+                <nodeAnchor idref="00027" side="east" position="0.5274407543020485" />
+            </to>
+            <over />
+            <label>
+                <text>n</text>
+                <pointAnchor x="0.0" y="0.0" />
+            </label>
+        </relationshipEdge>
+        <relationshipEdge total="true">
+            <from>
+                <nodeAnchor idref="00030" side="south" position="0.3925424077376238" />
+            </from>
+            <to>
+                <nodeAnchor idref="00056" side="north" position="0.6304871360649356" />
+            </to>
+            <over />
+            <label>
+                <text>n</text>
+                <pointAnchor x="0.0" y="0.0" />
+            </label>
+        </relationshipEdge>
+        <relationshipEdge total="false">
+            <from>
+                <nodeAnchor idref="00056" side="south" position="0.3846325949963068" />
+            </from>
+            <to>
+                <nodeAnchor idref="00040" side="north" position="0.6140583606526815" />
+            </to>
+            <over />
+            <label>
+                <text>1</text>
+                <pointAnchor x="0.0" y="0.0" />
+            </label>
+        </relationshipEdge>
+        <generalizationEdge total="false">
+            <from>
+                <nodeAnchor idref="00057" side="north" position="0.51089550229834" />
+            </from>
+            <to>
+                <nodeAnchor idref="00035" side="south" position="0.4905213436905109" />
+            </to>
+        </generalizationEdge>
+        <generalizationEdge total="false">
+            <from>
+                <nodeAnchor idref="00058" side="north" position="0.4925301137933034" />
+            </from>
+            <to>
+                <nodeAnchor idref="00034" side="south" position="0.5004268533941318" />
+            </to>
+        </generalizationEdge>
+        <specializationEdge>
+            <from>
+                <nodeAnchor idref="00057" side="south" position="0.17965008802072588" />
+            </from>
+            <to>
+                <nodeAnchor idref="00036" side="north" position="0.7191691012841477" />
+            </to>
+        </specializationEdge>
+        <specializationEdge>
+            <from>
+                <nodeAnchor idref="00057" side="east" position="0.7788992977167664" />
+            </from>
+            <to>
+                <nodeAnchor idref="00037" side="north" position="0.3039502353139616" />
+            </to>
+        </specializationEdge>
+        <specializationEdge>
+            <from>
+                <nodeAnchor idref="00058" side="west" position="0.7841271097246496" />
+            </from>
+            <to>
+                <nodeAnchor idref="00031" side="east" position="0.043885449402569825" />
+            </to>
+        </specializationEdge>
+        <specializationEdge>
+            <from>
+                <nodeAnchor idref="00058" side="east" position="0.8066908167321014" />
+            </from>
+            <to>
+                <nodeAnchor idref="00038" side="north" position="0.26382600617370977" />
+            </to>
+        </specializationEdge>
+    </view>
+</eer>
+

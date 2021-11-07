@@ -1,0 +1,381 @@
+2021/03/26 12:06:25 - main - er.Main.main(Main.java:43): program started
+2021/03/26 12:06:25 - main - er.util.Util.checkJavaVersion(Util.java:190): Your Java VM Version is 1.8.0_265
+2021/03/26 12:06:25 - main - er.Project.setCurrentProject(Project.java:153): project: neues (E)ER-Diagramm
+2021/03/26 12:06:25 - main - er.Project.setCurrentProject(Project.java:161): setCurrentProject
+2021/03/26 12:06:25 - main - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: 0
+2021/03/26 12:06:25 - main - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,0,0,0x0,invalid,hidden,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@6a1aab78,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/03/26 12:06:25 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/03/26 12:06:25 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/03/26 12:06:25 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/03/26 12:06:25 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/03/26 12:06:25 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/03/26 12:06:25 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/03/26 12:06:26 - Thread-7 - er.model.impl.Diagram.setNotation(Diagram.java:1246): Switched to Notation: 0
+2021/03/26 12:06:26 - Thread-7 - er.model.impl.Diagram.setNotation(Diagram.java:1246): Switched to Notation: 0
+2021/03/26 12:06:26 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:153): project: neues (E)ER-Diagramm
+2021/03/26 12:06:26 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:161): setCurrentProject
+2021/03/26 12:06:27 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: 0
+2021/03/26 12:06:27 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,102,0,678x581,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@6a1aab78,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/03/26 12:06:27 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:153): project: null
+2021/03/26 12:06:27 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: -1
+2021/03/26 12:06:27 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,102,0,678x581,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@6a1aab78,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/03/26 12:06:27 - Thread-0 - er.Main$1.run(Main.java:46): program ended
+2021/10/18 15:41:44 - main - er.Main.main(Main.java:43): program started
+2021/10/18 15:41:44 - main - er.util.Util.checkJavaVersion(Util.java:190): Your Java VM Version is 1.8.0_265
+2021/10/18 15:41:45 - main - er.Project.setCurrentProject(Project.java:153): project: neues (E)ER-Diagramm
+2021/10/18 15:41:45 - main - er.Project.setCurrentProject(Project.java:161): setCurrentProject
+2021/10/18 15:41:45 - main - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: 0
+2021/10/18 15:41:45 - main - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,0,0,0x0,invalid,hidden,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/10/18 15:41:45 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/10/18 15:41:45 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/10/18 15:41:45 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/10/18 15:41:45 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/10/18 15:41:45 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/10/18 15:41:45 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/10/18 15:41:46 - Thread-7 - er.model.impl.Diagram.setNotation(Diagram.java:1246): Switched to Notation: 0
+2021/10/18 15:41:46 - Thread-7 - er.model.impl.Diagram.setNotation(Diagram.java:1246): Switched to Notation: 0
+2021/10/18 15:41:58 - AWT-EventQueue-0 - er.model.impl.Diagram.setNotation(Diagram.java:1246): Switched to Notation: 0
+2021/10/18 15:41:59 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:153): project: neues (E)ER-Diagramm
+2021/10/18 15:41:59 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:161): setCurrentProject
+2021/10/18 15:41:59 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: 1
+2021/10/18 15:41:59 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,102,0,678x581,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/10/18 15:42:20 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/10/18 15:42:20 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/10/18 15:42:20 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/10/18 15:42:20 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/10/18 15:42:20 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/10/18 15:42:20 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/10/18 15:42:20 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/10/18 15:42:20 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/10/18 15:42:24 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:153): project: neues (E)ER-Diagramm
+2021/10/18 15:42:24 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:161): setCurrentProject
+2021/10/18 15:42:24 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: 0
+2021/10/18 15:42:24 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,102,0,678x581,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/10/18 15:42:24 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:153): project: neues (E)ER-Diagramm
+2021/10/18 15:42:24 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:161): setCurrentProject
+2021/10/18 15:42:24 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: 0
+2021/10/18 15:42:24 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,102,0,678x581,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/10/18 15:42:24 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:153): project: neues (E)ER-Diagramm
+2021/10/18 15:42:24 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:161): setCurrentProject
+2021/10/18 15:42:24 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: 0
+2021/10/18 15:42:24 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,102,0,678x581,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/10/18 15:42:24 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:153): project: null
+2021/10/18 15:42:24 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: -1
+2021/10/18 15:42:24 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,102,0,678x581,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/10/18 15:42:24 - Thread-0 - er.Main$1.run(Main.java:46): program ended
+2021/11/06 14:43:25 - main - er.Main.main(Main.java:43): program started
+2021/11/06 14:43:25 - main - er.util.Util.checkJavaVersion(Util.java:190): Your Java VM Version is 1.8.0_265
+2021/11/06 14:43:25 - main - er.Project.setCurrentProject(Project.java:153): project: neues (E)ER-Diagramm
+2021/11/06 14:43:25 - main - er.Project.setCurrentProject(Project.java:161): setCurrentProject
+2021/11/06 14:43:25 - main - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: 0
+2021/11/06 14:43:25 - main - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,0,0,0x0,invalid,hidden,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/11/06 14:43:25 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:43:25 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:43:25 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:43:25 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:43:25 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:43:25 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:43:26 - Thread-7 - er.model.impl.Diagram.setNotation(Diagram.java:1246): Switched to Notation: 0
+2021/11/06 14:43:27 - Thread-7 - er.model.impl.Diagram.setNotation(Diagram.java:1246): Switched to Notation: 0
+2021/11/06 14:43:40 - AWT-EventQueue-0 - er.model.impl.Diagram.setNotation(Diagram.java:1246): Switched to Notation: 0
+2021/11/06 14:43:40 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:153): project: Blatt3_2
+2021/11/06 14:43:40 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:161): setCurrentProject
+2021/11/06 14:43:40 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: 1
+2021/11/06 14:43:40 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,102,0,678x581,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/11/06 14:43:43 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:43:43 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:43:43 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:43:43 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:43:43 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:43:43 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:43:43 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:43:43 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:43:43 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:43:43 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:43:43 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:43:43 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:43:43 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:43:43 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:43:43 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:43:43 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:43:43 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:43:43 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:43:43 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:43:43 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:43:43 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:43:43 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:43:55 - main - er.Main.main(Main.java:43): program started
+2021/11/06 14:43:55 - main - er.util.Util.checkJavaVersion(Util.java:190): Your Java VM Version is 1.8.0_265
+2021/11/06 14:43:56 - main - er.Project.setCurrentProject(Project.java:153): project: neues (E)ER-Diagramm
+2021/11/06 14:43:56 - main - er.Project.setCurrentProject(Project.java:161): setCurrentProject
+2021/11/06 14:43:56 - main - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: 0
+2021/11/06 14:43:56 - main - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,0,0,0x0,invalid,hidden,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/11/06 14:43:56 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:43:56 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:43:56 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:43:56 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:43:56 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:43:56 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:43:56 - Thread-7 - er.model.impl.Diagram.setNotation(Diagram.java:1246): Switched to Notation: 0
+2021/11/06 14:43:57 - Thread-7 - er.model.impl.Diagram.setNotation(Diagram.java:1246): Switched to Notation: 0
+2021/11/06 14:44:34 - AWT-EventQueue-0 - er.model.impl.Diagram.setNotation(Diagram.java:1246): Switched to Notation: 0
+2021/11/06 14:44:34 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:153): project: Aufgabe02
+2021/11/06 14:44:34 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:161): setCurrentProject
+2021/11/06 14:44:34 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: 1
+2021/11/06 14:44:34 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,102,0,678x581,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/11/06 14:44:35 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:44:35 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:44:35 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:44:35 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:44:35 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:44:35 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:44:51 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:44:51 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:44:51 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:44:51 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:44:51 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:44:51 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:44:54 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:44:54 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:44:54 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:44:54 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:45:01 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:45:01 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:45:01 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:45:01 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:45:01 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:45:01 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:45:01 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:45:01 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:45:09 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:45:09 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:45:09 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:45:09 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:58:22 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:58:22 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:58:22 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:58:22 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:58:22 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:58:22 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:58:22 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:58:22 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:59:00 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:59:00 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 14:59:00 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/06 14:59:00 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/06 15:11:40 - AWT-EventQueue-0 - er.view.properties.ChenRelationshipEdgeProperties$3.actionPerformed(ChenRelationshipEdgeProperties.java:129): n
+2021/11/06 15:13:12 - AWT-EventQueue-0 - er.view.properties.ChenRelationshipEdgeProperties$3.actionPerformed(ChenRelationshipEdgeProperties.java:129): n
+2021/11/06 15:13:22 - AWT-EventQueue-0 - er.view.properties.ChenRelationshipEdgeProperties$3.actionPerformed(ChenRelationshipEdgeProperties.java:129): n
+2021/11/06 15:18:42 - AWT-EventQueue-0 - er.view.properties.ChenRelationshipEdgeProperties$3.actionPerformed(ChenRelationshipEdgeProperties.java:129): n
+2021/11/06 15:24:47 - AWT-EventQueue-0 - er.view.properties.ChenRelationshipEdgeProperties$3.actionPerformed(ChenRelationshipEdgeProperties.java:129): n
+2021/11/06 15:27:10 - AWT-EventQueue-0 - er.view.properties.ChenRelationshipEdgeProperties$3.actionPerformed(ChenRelationshipEdgeProperties.java:129): n
+2021/11/06 15:50:39 - AWT-EventQueue-0 - er.view.properties.ChenRelationshipEdgeProperties$3.actionPerformed(ChenRelationshipEdgeProperties.java:129): n
+2021/11/06 15:50:43 - AWT-EventQueue-0 - er.view.properties.ChenRelationshipEdgeProperties$3.actionPerformed(ChenRelationshipEdgeProperties.java:129): 1
+2021/11/06 15:50:55 - AWT-EventQueue-0 - er.view.properties.ChenRelationshipEdgeProperties$3.actionPerformed(ChenRelationshipEdgeProperties.java:129): 1
+2021/11/06 15:51:02 - AWT-EventQueue-0 - er.view.properties.ChenRelationshipEdgeProperties$3.actionPerformed(ChenRelationshipEdgeProperties.java:129): n
+2021/11/06 15:51:29 - AWT-EventQueue-0 - er.view.properties.ChenRelationshipEdgeProperties$3.actionPerformed(ChenRelationshipEdgeProperties.java:129): 1
+2021/11/06 15:51:35 - AWT-EventQueue-0 - er.view.properties.ChenRelationshipEdgeProperties$3.actionPerformed(ChenRelationshipEdgeProperties.java:129): n
+2021/11/06 15:53:10 - AWT-EventQueue-0 - er.view.properties.ChenRelationshipEdgeProperties$3.actionPerformed(ChenRelationshipEdgeProperties.java:129): n
+2021/11/06 15:56:04 - AWT-EventQueue-0 - er.view.properties.ChenRelationshipEdgeProperties$3.actionPerformed(ChenRelationshipEdgeProperties.java:129): 1
+2021/11/06 15:56:24 - AWT-EventQueue-0 - er.view.properties.ChenRelationshipEdgeProperties$3.actionPerformed(ChenRelationshipEdgeProperties.java:129): n
+2021/11/06 15:57:51 - AWT-EventQueue-0 - er.view.properties.ChenRelationshipEdgeProperties$3.actionPerformed(ChenRelationshipEdgeProperties.java:129): 1
+2021/11/06 15:57:56 - AWT-EventQueue-0 - er.view.properties.ChenRelationshipEdgeProperties$3.actionPerformed(ChenRelationshipEdgeProperties.java:129): n
+2021/11/06 16:00:28 - AWT-EventQueue-0 - er.view.properties.ChenRelationshipEdgeProperties$3.actionPerformed(ChenRelationshipEdgeProperties.java:129): n
+2021/11/06 16:00:55 - AWT-EventQueue-0 - er.view.properties.ChenRelationshipEdgeProperties$3.actionPerformed(ChenRelationshipEdgeProperties.java:129): m
+2021/11/06 16:01:00 - AWT-EventQueue-0 - er.view.properties.ChenRelationshipEdgeProperties$3.actionPerformed(ChenRelationshipEdgeProperties.java:129): m
+2021/11/06 16:02:25 - AWT-EventQueue-0 - er.view.properties.ChenRelationshipEdgeProperties$3.actionPerformed(ChenRelationshipEdgeProperties.java:129): 1
+2021/11/06 16:03:53 - AWT-EventQueue-0 - er.view.properties.ChenRelationshipEdgeProperties$3.actionPerformed(ChenRelationshipEdgeProperties.java:129): n
+2021/11/06 16:09:38 - AWT-EventQueue-0 - er.view.properties.ChenRelationshipEdgeProperties$3.actionPerformed(ChenRelationshipEdgeProperties.java:129): 1
+2021/11/06 16:10:43 - AWT-EventQueue-0 - er.view.properties.ChenRelationshipEdgeProperties$3.actionPerformed(ChenRelationshipEdgeProperties.java:129): n
+2021/11/06 16:12:03 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:153): project: neues (E)ER-Diagramm
+2021/11/06 16:12:03 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:161): setCurrentProject
+2021/11/06 16:12:03 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: 0
+2021/11/06 16:12:03 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,102,0,654x919,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/11/06 16:12:03 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:153): project: Blatt3_2
+2021/11/06 16:12:03 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:161): setCurrentProject
+2021/11/06 16:12:03 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: 0
+2021/11/06 16:12:03 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,102,0,654x919,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/11/06 16:12:03 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:153): project: Blatt3_2
+2021/11/06 16:12:03 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:161): setCurrentProject
+2021/11/06 16:12:03 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: 0
+2021/11/06 16:12:03 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,102,0,654x919,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/11/06 16:12:03 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:153): project: null
+2021/11/06 16:12:03 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: -1
+2021/11/06 16:12:03 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,102,0,654x919,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/11/06 16:12:03 - Thread-0 - er.Main$1.run(Main.java:46): program ended
+2021/11/06 16:12:05 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:153): project: neues (E)ER-Diagramm
+2021/11/06 16:12:05 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:161): setCurrentProject
+2021/11/06 16:12:05 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: 0
+2021/11/06 16:12:05 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,102,0,654x919,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/11/06 16:12:05 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:153): project: Aufgabe02*
+2021/11/06 16:12:05 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:161): setCurrentProject
+2021/11/06 16:12:05 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: 0
+2021/11/06 16:12:05 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,102,0,654x919,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/11/06 16:12:05 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:153): project: Aufgabe02*
+2021/11/06 16:12:05 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:161): setCurrentProject
+2021/11/06 16:12:05 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: 0
+2021/11/06 16:12:05 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,102,0,654x919,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/11/06 16:12:08 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:153): project: null
+2021/11/06 16:12:08 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: -1
+2021/11/06 16:12:08 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,102,0,654x919,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/11/06 16:12:08 - Thread-0 - er.Main$1.run(Main.java:46): program ended
+2021/11/07 12:23:41 - main - er.Main.main(Main.java:43): program started
+2021/11/07 12:23:41 - main - er.util.Util.checkJavaVersion(Util.java:190): Your Java VM Version is 1.8.0_265
+2021/11/07 12:23:41 - main - er.Project.setCurrentProject(Project.java:153): project: neues (E)ER-Diagramm
+2021/11/07 12:23:41 - main - er.Project.setCurrentProject(Project.java:161): setCurrentProject
+2021/11/07 12:23:41 - main - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: 0
+2021/11/07 12:23:41 - main - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,0,0,0x0,invalid,hidden,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/11/07 12:23:41 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:23:41 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:23:41 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:23:41 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:23:41 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:23:41 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:23:42 - Thread-7 - er.model.impl.Diagram.setNotation(Diagram.java:1246): Switched to Notation: 0
+2021/11/07 12:23:42 - Thread-7 - er.model.impl.Diagram.setNotation(Diagram.java:1246): Switched to Notation: 0
+2021/11/07 12:23:49 - AWT-EventQueue-0 - er.model.impl.Diagram.setNotation(Diagram.java:1246): Switched to Notation: 0
+2021/11/07 12:23:49 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:153): project: Aufgabe02
+2021/11/07 12:23:49 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:161): setCurrentProject
+2021/11/07 12:23:49 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: 1
+2021/11/07 12:23:49 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,102,0,678x581,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/11/07 12:23:50 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:23:50 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:23:50 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:23:50 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:23:50 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:23:50 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:23:56 - main - er.Main.main(Main.java:43): program started
+2021/11/07 12:23:56 - main - er.util.Util.checkJavaVersion(Util.java:190): Your Java VM Version is 1.8.0_265
+2021/11/07 12:23:57 - main - er.Project.setCurrentProject(Project.java:153): project: neues (E)ER-Diagramm
+2021/11/07 12:23:57 - main - er.Project.setCurrentProject(Project.java:161): setCurrentProject
+2021/11/07 12:23:57 - main - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: 0
+2021/11/07 12:23:57 - main - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,0,0,0x0,invalid,hidden,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/11/07 12:23:57 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:23:57 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:23:57 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:23:57 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:23:57 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:23:57 - main - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:23:57 - Thread-7 - er.model.impl.Diagram.setNotation(Diagram.java:1246): Switched to Notation: 0
+2021/11/07 12:23:58 - Thread-7 - er.model.impl.Diagram.setNotation(Diagram.java:1246): Switched to Notation: 0
+2021/11/07 12:24:04 - AWT-EventQueue-0 - er.model.impl.Diagram.setNotation(Diagram.java:1246): Switched to Notation: 0
+2021/11/07 12:24:04 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:153): project: Blatt3_2
+2021/11/07 12:24:04 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:161): setCurrentProject
+2021/11/07 12:24:04 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: 1
+2021/11/07 12:24:04 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,102,0,678x581,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/11/07 12:24:14 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:24:14 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:24:14 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:24:14 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:24:14 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:24:14 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:24:33 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:24:33 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:24:33 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:24:33 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:24:40 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:24:40 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:24:40 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:24:40 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:24:40 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:24:40 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:24:40 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:24:40 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:24:40 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:24:40 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:24:40 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:24:40 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:24:40 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:24:40 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:24:47 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:24:47 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:24:47 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:24:47 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:24:54 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:24:54 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:24:54 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:24:54 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:24:54 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:24:54 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:24:54 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:24:54 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:25:15 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:25:15 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:25:15 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:25:15 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:25:15 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:25:15 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:25:22 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:25:22 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:25:22 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:25:22 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:25:22 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:25:22 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:25:22 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:25:22 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:25:50 - AWT-EventQueue-0 - er.view.properties.ChenRelationshipEdgeProperties$3.actionPerformed(ChenRelationshipEdgeProperties.java:129): 1
+2021/11/07 12:25:56 - AWT-EventQueue-0 - er.view.properties.ChenRelationshipEdgeProperties$3.actionPerformed(ChenRelationshipEdgeProperties.java:129): n
+2021/11/07 12:28:37 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:28:37 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:28:37 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:195): PropertiesMethod javax.swing.plaf.FontUIResource[family=Tahoma,name=Tahoma,style=plain,size=13]
+2021/11/07 12:28:37 - AWT-EventQueue-0 - er.view.properties.PropertiesMethods.createBorder(PropertiesMethods.java:198): PropertiesMethods vor map.put :java.awt.font.TextAttribute(size),...,
+2021/11/07 12:29:48 - AWT-EventQueue-0 - er.model.impl.Diagram.setNotation(Diagram.java:1246): Switched to Notation: 0
+2021/11/07 12:29:48 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:153): project: Blatt3_1
+2021/11/07 12:29:48 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:161): setCurrentProject
+2021/11/07 12:29:48 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: 2
+2021/11/07 12:29:48 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,102,0,1616x929,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/11/07 12:34:14 - AWT-EventQueue-0 - er.model.impl.Diagram.setNotation(Diagram.java:1246): Switched to Notation: 0
+2021/11/07 12:34:14 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:153): project: Aufgabe01
+2021/11/07 12:34:14 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:161): setCurrentProject
+2021/11/07 12:34:14 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: 2
+2021/11/07 12:34:14 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,102,0,1616x929,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/11/07 12:35:10 - AWT-EventQueue-0 - er.view.properties.ChenRelationshipEdgeProperties$3.actionPerformed(ChenRelationshipEdgeProperties.java:129): n
+2021/11/07 12:35:14 - AWT-EventQueue-0 - er.view.properties.ChenRelationshipEdgeProperties$3.actionPerformed(ChenRelationshipEdgeProperties.java:129): 1
+2021/11/07 12:35:23 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:153): project: neues (E)ER-Diagramm
+2021/11/07 12:35:23 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:161): setCurrentProject
+2021/11/07 12:35:23 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: 0
+2021/11/07 12:35:23 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,102,0,1616x929,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/11/07 12:35:23 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:153): project: Aufgabe02*
+2021/11/07 12:35:23 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:161): setCurrentProject
+2021/11/07 12:35:23 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: 0
+2021/11/07 12:35:23 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,102,0,1616x929,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/11/07 12:35:23 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:153): project: Aufgabe02*
+2021/11/07 12:35:23 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:161): setCurrentProject
+2021/11/07 12:35:23 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: 0
+2021/11/07 12:35:23 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,102,0,1616x929,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/11/07 12:35:25 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:153): project: Aufgabe01*
+2021/11/07 12:35:25 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:161): setCurrentProject
+2021/11/07 12:35:25 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: 0
+2021/11/07 12:35:25 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,102,0,1616x929,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/11/07 12:35:25 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:153): project: Aufgabe01*
+2021/11/07 12:35:25 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:161): setCurrentProject
+2021/11/07 12:35:25 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: 0
+2021/11/07 12:35:25 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,102,0,1616x929,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/11/07 12:35:30 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:153): project: null
+2021/11/07 12:35:30 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: -1
+2021/11/07 12:35:30 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,102,0,1616x929,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/11/07 12:35:30 - Thread-0 - er.Main$1.run(Main.java:46): program ended
+2021/11/07 12:35:35 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:153): project: neues (E)ER-Diagramm
+2021/11/07 12:35:35 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:161): setCurrentProject
+2021/11/07 12:35:35 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: 0
+2021/11/07 12:35:35 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,102,0,1616x929,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/11/07 12:35:35 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:153): project: Blatt3_2
+2021/11/07 12:35:35 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:161): setCurrentProject
+2021/11/07 12:35:35 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: 0
+2021/11/07 12:35:35 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,102,0,1616x929,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/11/07 12:35:35 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:153): project: Blatt3_2
+2021/11/07 12:35:35 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:161): setCurrentProject
+2021/11/07 12:35:35 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: 0
+2021/11/07 12:35:35 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,102,0,1616x929,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/11/07 12:35:35 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:153): project: Blatt3_1
+2021/11/07 12:35:35 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:161): setCurrentProject
+2021/11/07 12:35:35 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: 0
+2021/11/07 12:35:35 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,102,0,1616x929,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/11/07 12:35:35 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:153): project: Blatt3_1
+2021/11/07 12:35:35 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:161): setCurrentProject
+2021/11/07 12:35:35 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: 0
+2021/11/07 12:35:35 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,102,0,1616x929,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/11/07 12:35:35 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:153): project: null
+2021/11/07 12:35:35 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:165): SetCurrentProject pointer: -1
+2021/11/07 12:35:35 - AWT-EventQueue-0 - er.Project.setCurrentProject(Project.java:167): er.view.DrawingField[,102,0,1616x929,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@4a87761d,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021/11/07 12:35:35 - Thread-0 - er.Main$1.run(Main.java:46): program ended
