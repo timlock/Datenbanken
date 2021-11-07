@@ -92,7 +92,7 @@
             </attributes>
         </entity>
         <entity id="00011" weak="false">
-            <name>Zutaten</name>
+            <name>Zutat</name>
             <attributes>
                 <attributeRef idref="00006" />
             </attributes>
@@ -125,12 +125,12 @@
             <name>BestehtAus</name>
             <attributes />
             <participatingEntities>
-                <entityRef idref="00010" cardinality="n" total="false" />
+                <entityRef idref="00010" cardinality="1" total="true" />
                 <entityRef idref="00011" cardinality="m" total="false" />
             </participatingEntities>
         </relationship>
     </model>
-    <view scaleSize="55" fontSize="13" notation="0">
+    <view scaleSize="45" fontSize="10" notation="0">
         <node idref="00001">
             <pointAnchor x="18.64" y="1.72" />
         </node>
@@ -292,7 +292,7 @@
                 <pointAnchor x="0.0" y="0.0" />
             </label>
         </relationshipEdge>
-        <relationshipEdge total="false">
+        <relationshipEdge total="true">
             <from>
                 <nodeAnchor idref="00010" side="south" position="0.5022848482473865" />
             </from>
@@ -301,7 +301,7 @@
             </to>
             <over />
             <label>
-                <text>n</text>
+                <text>1</text>
                 <pointAnchor x="0.0" y="0.0" />
             </label>
         </relationshipEdge>
