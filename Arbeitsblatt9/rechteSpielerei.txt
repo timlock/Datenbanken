@@ -1,0 +1,70 @@
+CREATE TABLE See(
+  name VARCHAR(15),
+  tiefe INTEGER,
+  PRIMARY KEY(name)
+);
+
+INSERT INTO See VALUES('Wannsee',10);
+INSERT INTO See VALUES('Wersee',8);
+INSERT INTO See VALUES('Wosee',12);
+
+
+drop synonym tim;
+create synonym tim for otimnlock.see;
+
+COMMIT;
+
+Grant all on  see to olinkurze ;
+create synonym linusSee for olinkurze.see;
+
+SELECT * FROM linusSee;
+
+select * from see
+minus
+select * from linusSee;
+
+insert into see (name, tiefe) values ('Baggersee', 1);
+update see 
+set tiefe = (select tiefe from see where name = 'Baggersee') + 1
+where name = 'Baggersee';
+select * from see;
+
+create view viewSee as select name from see;
+Grant all on  viewSee to olinkurze;
+
+revoke all on see from olinkurze;
+
+
+CREATE TABLE See(
+  name VARCHAR(15),
+  tiefe INTEGER,
+  PRIMARY KEY(name)
+);
+
+INSERT INTO See VALUES('Wannsee',10);
+INSERT INTO See VALUES('Wersee',8);
+INSERT INTO See VALUES('Wosee',12);
+
+
+SELECT * FROM See;
+
+drop synonym linus;
+create synonym linus for olinkurze.see;
+
+COMMIT;
+
+Grant all on  see to otimnlock ;
+
+create synonym timSee for otimnlock.see;
+
+update timSee 
+set tiefe = (select tiefe from timSee where name = 'Baggersee') + 1
+where name = 'Baggersee';
+
+
+select * from otimnlock.viewSee;
+update otimnlock.viewSee
+set name = 'testSee'
+where name = 'Baggersee';
+
+select * from see;
