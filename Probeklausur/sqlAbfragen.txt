@@ -1,0 +1,43 @@
+a)
+select projekt.prLeiter 
+from projekt 
+join arbeitspaket on arbeitspaket.pakleiter = projekt.prname;
+
+b)
+select pakleiter 
+from arbeitspaket
+group by pakleiter
+having count(pakname) > 1;
+
+c)
+select arbeitspaket.pakname
+from arbeitspaket
+left outer join arbeit on arbeitspaket.paknr = arbeit.paknr
+where miname is null;
+
+select arbeitspaket.pakname
+from arbeitspaket
+minus
+select arbeitspaket.pakname
+from arbeitspaket
+join arbeit on arbeitspaket.paknr = arbeit.paknr;
+
+d)
+select projekt.prname, sum(arbeit.anteil)
+from projekt
+join arbeitspaket on arbeitspaket.prnr = projekt.prnr
+join arbeit on arbeit.paknr = arbeitspaket.paknr
+group by projekt.prname;
+
+e)
+select miname 
+from arbeit
+group by miname
+having sum(anteil) > 100;
+
+f)
+select arbeitspaket.pakname
+from arbeitspaket
+join arbeit on arbeit.paknr = arbeitspaket.paknr
+group by arbeitspaket.pakname
+having count(distinct arbeit.miname) > 1;

@@ -24,7 +24,9 @@ public class Main {
                 "Gruen number(1)," +
                 "PRIMARY KEY  (QualitaetsSchluessel))");
 
-        if(createKartoffel.execute()) System.out.println("Kartoffel erstellt");
+        if(createKartoffel.execute()) {
+            System.out.println("Kartoffel erstellt");
+        }
         createKartoffel.close();
         PreparedStatement createGrossraumlager = con.prepareStatement(
                 "create table Grossraumlager (" +
@@ -79,7 +81,7 @@ public class Main {
     }
 
     public static void definiereKartoffel(Connection con) throws SQLException {
-        if(false) {
+        if(true) {
             PreparedStatement insert = con.prepareStatement("insert into Kartoffel(QualitaetsSchluessel,Sorte,Groesse,Gewicht,Staerkegehalt,Fleckigkeit,Gruen)" +
                     "values (?,?,?,?,?,?,?)");
             insert.setInt(1, 0); //QualitaetsSchluessel number(10)
@@ -120,7 +122,7 @@ public class Main {
             insert.execute();
             insert.close();
         }
-        if (false) {
+        if (true) {
             PreparedStatement insert = con.prepareStatement("insert into Produktionslager(BunkerNr,Adresse,QualitaetsSchluessel,Sorte,Groesse)" +
                     "values (?,?,?,?,?)");
             insert.setInt(1, 1); //"BunkerNr number (3)," +
@@ -151,6 +153,7 @@ public class Main {
                 System.out.print(resultSet.getString("EinlagerungsZeitpunkt")+ " ");
                 System.out.print(resultSet.getInt("Groesse")+ " ");
                 System.out.print(resultSet.getString("Lagerstelle")+ " ");
+                System.out.println();
             }
             statement.close();
         }
@@ -170,6 +173,7 @@ public class Main {
                 System.out.print(resultSet.getString("Adresse")+ " ");
                 System.out.print(resultSet.getString("Sorte")+ " ");
                 System.out.print(resultSet.getInt("Groesse")+ " ");
+                System.out.println();
             }
             statement.close();
         }
@@ -217,58 +221,19 @@ public class Main {
             con = DriverManager.getConnection("jdbc:oracle:thin:@oracle-srv.edvsz.hs-osnabrueck.de:1521/oraclestud",
                     "otimnlock", "otimnlock");
 //            dropTables(con);
-//            createTables(con);
-//            definiereKartoffel(con);
-//            einlagern(con);
+            createTables(con);
+            definiereKartoffel(con);
+            einlagern(con);
             info(con);
-            umlagern(con);
-            info(con);
+            System.out.println("Umlagern:\n");
+//            umlagern(con);
+//            info(con);
 
-
-
-            /*
-            // Statement erstellen
-            Statement statement = con.createStatement();
-            ResultSet resultSet = statement.executeQuery("select gehalt from angestellter where gehalt > 40000");
-
-            // Ergebnis verarbeiten
-            while(resultSet.next()){
-                System.out.println(resultSet.getInt("gehalt"));
-            }
-
-            ArrayList <String> al = new ArrayList();
-            Iterator iterator = al.iterator();
-            while (iterator.hasNext()){
-                String next = (String) iterator.next();
-            }
-
-
-            PreparedStatement preparedStatement = con.prepareStatement("select gehalt from angestellter where gehalt > ?");
-            preparedStatement.setInt(1,40000);
-            resultSet = preparedStatement.executeQuery();
-
-            ResultSetMetaData metaData1 = resultSet.getMetaData();
-            metaData1.getColumnCount();
-
-
-            // Ergebnis verarbeiten
-            while(resultSet.next()){
-                System.out.println(resultSet.getInt("gehalt"));
-            }
-
-            DatabaseMetaData metaData = con.getMetaData();
-            System.out.println(metaData.getDatabaseProductName());
-            System.out.println(metaData.getDefaultTransactionIsolation());
-            con.setAutoCommit(false);
-
-            resultSet.close();
-            statement.close();
-            preparedStatement.close();
-             */
             con.close();
 
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
+
         }
 
 
